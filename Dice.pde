@@ -14,7 +14,7 @@ void draw()
  {
    for(int Asuna = 50; Asuna<=350; Asuna += 150)
    {
-     new Die(Sinon,Asuna);
+     new Yuuki(Sinon,Asuna);
    }
  }
 fill(0,255,255);
@@ -33,12 +33,12 @@ void mousePressed()
   count = 0;
  
 }
-class Die //models one single dice cube
+class Yuuki //the dice for you confused people
 {
   int side;
   int myX;
   int myY;
-  Die(int x, int y) //constructor
+  Yuuki(int x, int y) //constructor
   {
     myX = x;
     myY = y;
